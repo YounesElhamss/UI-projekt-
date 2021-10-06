@@ -63,5 +63,3 @@ public class MyController {
         return "frontpagePrivate";
     }
 }
-
-
