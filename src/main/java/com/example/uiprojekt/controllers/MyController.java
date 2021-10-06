@@ -55,7 +55,13 @@ public class MyController {
         return "frontpagePrivate";
     }
 
+
     //blablablabla GIT TEST
+
+    @GetMapping("/frontpagePrivate")
+    public String getFrontpagePrivate2() {
+        return "frontpagePrivate";
+    }
 }
 
 
