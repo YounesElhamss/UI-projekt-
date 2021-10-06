@@ -62,4 +62,13 @@ public class MyController {
     public String getFrontpagePrivate2() {
         return "frontpagePrivate";
     }
+
+
+
+
+
+    @GetMapping("/frontpagePrivate3")
+    public String getFrontpagePrivate3() {
+        return "frontpagePrivate3";
+    }
 }
