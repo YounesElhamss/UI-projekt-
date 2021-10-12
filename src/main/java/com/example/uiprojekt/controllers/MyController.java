@@ -55,6 +55,12 @@ public class MyController {
         return "frontpagePrivate";
     }
 
+    @GetMapping("/skraldespand")
+    public String getSkraldespand() {
+        return "skraldespand";
+    }
+
+
 }
 
 
