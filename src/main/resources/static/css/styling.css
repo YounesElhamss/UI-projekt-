@@ -114,6 +114,7 @@ div3{
 
 }
 
+
 img.center-logo-about {
     display: block;
     margin-left: auto;
@@ -129,6 +130,7 @@ img.center-madspild{
     height: 200px;
     width: auto;
     border: 2px solid black;
+
 }
 
 /*.container
@@ -150,4 +152,5 @@ div {
     width:92%;
     height:44px;
     list-style-type:none;
+
 }

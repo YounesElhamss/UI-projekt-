@@ -3,6 +3,11 @@ h1 {
     color: darkgreen;
 }
 
+h6 {
+    margin-left: 550px;
+    color: darkgreen;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -54,4 +59,9 @@ li a:hover {
     margin-left: 480px;
     margin-top: 50px;
     height: 220px;
+}
+
+p {
+    color: darkgreen;
+    margin-left: 550px;
 }
