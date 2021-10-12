@@ -55,11 +55,14 @@ public class MyController {
         return "frontpagePrivate";
     }
 
+<<<<<<< HEAD
     @GetMapping("/skraldespand")
     public String getSkraldespand() {
         return "skraldespand";
     }
 
+=======
+>>>>>>> 857aee22ca62e69f6c5adb84b61dc928ac249f03
 
 }
 
