@@ -6,11 +6,27 @@ div#wrapperHeader {
 }
 
 div#wrapperHeader div#header {
-    width: 500px;
-    height: 200px;
-    margin: auto;
-    position: center;
+    width:1000px;
+    height:200px;
+    margin:0 auto;
 }
+
+h1 {
+    margin-left:450px ;
+   /* margin-right: auto;*/
+    font-family: Serif SansSerif;
+    color: black;
+
+}
+
+.navigationbar {
+
+    width:1000px;
+    height:200px;
+    margin:0 auto;
+}
+
+
 body {
     background-color: grey;
     font-family: "Lucida Console", "Courier New", monospace;
@@ -116,6 +132,8 @@ img.global {
     margin-left:15px;
    /* margin-bottom: 10px;*/
 }
+
+
 
 
 
