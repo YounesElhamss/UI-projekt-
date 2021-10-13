@@ -17,7 +17,6 @@ body {
 }
 
 ul.navbar {
-
     margin-left: 300px;
     margin-top: 40px;
     z-index:1;
@@ -93,28 +92,18 @@ h3{
 
 }
 
-
-.div4 {
-    text-align: justify;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: white;
-    line-height: 2;
-}
-
 img.center-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
     padding-top: 10px;
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
     position: center;
 
 }
 img.center-madspild{
-    /*display: block;*/
     margin-left: 500px;
     margin-right: 500px;
     height: 200px;
