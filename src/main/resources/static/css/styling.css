@@ -59,7 +59,7 @@ h3{
     float-displace: auto;
 }
 
-h5{
+.h5{
     text-align: center;
     font-size: x-large;
     outline: 30px;
@@ -75,7 +75,6 @@ h5{
 
 .div {
     float: left;
-    width: 50%;
     text-align: justify;
     padding-left: 30px;
     padding-right: 30px;
@@ -84,7 +83,7 @@ h5{
     /*  position:center;*/
     /*  height: auto;*/
 }
-.div1 {
+.img {
 
     float: right;
     margin: auto;
@@ -96,16 +95,16 @@ h5{
 }
 
 .div2 {
-    /* display: inline-grid;*/
+    /* display: inline-grid;
     padding-top: 200px;
-    float: left;
+    float: left;*/
     text-align: justify;
     color: white;
     line-height: 2;
 }
 
 .div3{
-    position: center;
+    /*position: center;*/
     line-height: 2;
     text-align: center;
     color: white;
@@ -125,7 +124,7 @@ img.center-logo {
 
 }
 img.center-madspild{
-    display: block;
+    /*display: block;*/
     margin-left: auto;
     margin-right: auto;
     height: 200px;
