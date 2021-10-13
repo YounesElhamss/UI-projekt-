@@ -12,12 +12,20 @@ div#wrapperHeader div#header {
     height:200px;
     margin:0 auto;
 }
+
 h1 {
     margin-left:450px ;
    /* margin-right: auto;*/
     font-family: Serif SansSerif;
     color: black;
 
+}
+
+.navigationbar {
+
+    width:1000px;
+    height:200px;
+    margin:0 auto;
 }
 
 body {
@@ -142,8 +150,7 @@ div {
      display: inline;
  }*/
 
-#navItems
-{
+#navItems {
     display:flex;
     z-index:1;
     position:fixed;
@@ -152,5 +159,5 @@ div {
     width:92%;
     height:44px;
     list-style-type:none;
-
+    margin-left: 0px;
 }
