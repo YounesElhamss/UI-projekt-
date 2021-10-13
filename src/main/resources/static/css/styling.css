@@ -14,21 +14,21 @@ div#wrapperHeader div#header {
 body {
     background-color: grey;
     font-family: "Lucida Console", "Courier New", monospace;
-    margin-right: 5px;
-    margin-left: 5px;
-
 }
 
-ul {
+ul.navbar {
 
-    position: center;
+    margin-left: 300px;
+    margin-top: 40px;
     z-index:1;
     top:0;
     background-color:grey;
-    width:90%;
-    height:44px;
+    height:36px;
     list-style-type:none;
-    margin-left:300px;
+}
+
+ul{
+    float:left;
 }
 
 form {
@@ -41,6 +41,7 @@ li {
 }
 
 li a {
+    position: center;
     color: white;
     text-align: center;
     padding: 30px 16px;
@@ -53,11 +54,10 @@ li a:hover {
 }
 
 h3{
-    text-align: left;
+    text-align: center;
     color:white;
     font-size: large;
-    margin-left: 200px;
-    float-displace: auto;
+
 }
 
 .h5{
@@ -81,8 +81,7 @@ h3{
     padding-right: 30px;
     line-height: 2;
     color: white;
-    /*  position:center;*/
-    /*  height: auto;*/
+
 }
 .div1{
     object-position: right top;
@@ -94,33 +93,23 @@ h3{
 
 }
 
-.div2 {
-    /* display: inline-grid;
-    padding-top: 200px;
-    float: left;*/
+
+.div4 {
     text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
     color: white;
     line-height: 2;
 }
-
-.div3{
-    /*position: center;*/
-    line-height: 2;
-    text-align: center;
-    color: white;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
 
 img.center-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    height: 250px;
-    width: 250px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    height: 200px;
+    width: 200px;
     position: center;
 
 }
@@ -130,27 +119,13 @@ img.center-madspild{
     margin-right: 500px;
     height: 200px;
     width: auto;
-   /* border: 2px solid black;*/
-
+    /* border: 2px solid black;*/
 }
 
-.div4 {
-    text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
-    color: white;
-    line-height: 2;
+img.global {
+    float:right;
+    margin-left:15px;
+   /* margin-bottom: 10px;*/
 }
-/*
-#navItems2
-{
-    display:flex;
-    z-index:1;
-    position:fixed;
-    top:0;
-    background-color:grey;
-    width:92%;
-    height:44px;
-    list-style-type:none;
 
-}*/
+
