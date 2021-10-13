@@ -17,6 +17,9 @@ body {
 }
 
 ul.navbar {
+
+    /*display: flex;
+    justify-content: center;*/
     margin-left: 300px;
     margin-top: 40px;
     z-index:1;
@@ -50,6 +53,15 @@ li a {
 li a:hover {
     background-color: darkred;
 
+}
+
+p{
+    color:white;
+}
+
+h1{
+    text-align: center;
+    color:white;
 }
 
 h3{
