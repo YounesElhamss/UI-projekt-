@@ -16,13 +16,15 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
-ul.navbar {
 
-    /*display: flex;
-    justify-content: center;*/
-    margin-left: 300px;
+.navbar {
+
+    display: flex;
+    justify-content: center;
+   /* margin-left: 300px;*/
     margin-top: 40px;
-    z-index:1;
+    margin-bottom: 20px;
+    z-indnex:1;
     top:0;
     background-color:grey;
     height:36px;
@@ -130,5 +132,10 @@ img.global {
 }
 
 
-
+.backet-middle{
+    margin-top: 30px;
+    padding-left: 35px;
+    display: flex;
+    justify-content: center;
+}
 

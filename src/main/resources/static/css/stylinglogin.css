@@ -16,11 +16,14 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
-ul.navbar {
+.navbar {
 
-    margin-left: 375px;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 300px;*/
     margin-top: 40px;
-    z-index:1;
+    margin-bottom: 20px;
+    z-indnex:1;
     top:0;
     background-color:grey;
     height:36px;
